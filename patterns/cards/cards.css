@@ -1,0 +1,57 @@
+.card {
+  color: #666;
+  background-color: #eee;
+  border-radius: 16px;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.name-card {
+  max-width: 400px;
+
+}
+
+.name-card div {
+  margin-left: 1rem;
+}
+
+.name-card small {
+  color: #999;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.event-card {
+  max-width: 400px;
+  max-height: 120px;
+}
+
+.event-card img{
+  max-width: 120px;
+}
+
+.event-label {
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+
+.event-card-lg {
+  max-width: 400px;
+  position: relative;
+  max-height: 200px;
+}
+
+.event-label-lg {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+
+}
