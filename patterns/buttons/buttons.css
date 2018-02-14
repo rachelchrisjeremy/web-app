@@ -1,0 +1,32 @@
+.btn {
+  background-color: var(--color-primary);
+  border-color: transparent;
+  color: #fff;
+  transition: all 250ms linear;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-light);
+  border-color: transparent;
+}
+
+.btn-light {
+  background-color: var(--color-secondary);
+  border-color: transparent;
+  color: #fff;
+}
+
+.btn-light:hover {
+  background: var(--color-secondary-light);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border: 3px solid var(--color-primary);
+  border-radius: 20px;
+  color: var(--color-primary);
+}
+
+.btn-ghost:hover {
+  color: #fff;
+}
