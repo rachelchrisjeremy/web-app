@@ -1,0 +1,1 @@
+This is the header of the website. It features the navigation for each section of the website. It also features the logo on the left-hand side. The header is featured at the top of the website, with nothing above it, on each and every page.
