@@ -4,13 +4,12 @@
   --color-secondary: #696969;
   --color-secondary-light: #FF8A8A;
 
-  --font-primary: "reklame-script", sans-serif;
-  --font-secondary: "soleil", sans-serif;
+  --font-primary: "Noto Sans", sans-serif;
 
 }
 
 html {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,12 +17,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tera {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 a {
-  font-weight: bold;
-  color: green;
   text-decoration: none;
 }
 
