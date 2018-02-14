@@ -1,0 +1,44 @@
+:root {
+  --color-primary: #F84646;
+  --color-primary-light: #FF8A8A;
+  --color-secondary: #696969;
+  --color-secondary-light: #FF8A8A;
+
+  --font-primary: "reklame-script", sans-serif;
+  --font-secondary: "soleil", sans-serif;
+
+}
+
+html {
+  font-family: var(--font-secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+}
+
+.tera {
+  font-family: var(--font-secondary);
+}
+
+a {
+  font-weight: bold;
+  color: green;
+  text-decoration: none;
+}
+
+ul {
+  font-weight: 200;
+}
+
+ol {
+  font-weight: 200;
+}
+
+dl {
+  font-weight: 200;
+}
+
+mark {
+  background-color: var(--color-secondary);
+}
