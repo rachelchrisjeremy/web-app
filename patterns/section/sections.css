@@ -1,3 +1,11 @@
+.wrapper {
+  max-width: 44em;
+}
+
+.icon {
+  fill: black;
+}
+
 .card {
   color: #666;
   background-color: #eee;
@@ -42,5 +50,40 @@
   bottom: 0;
   background-color: rgba(255, 255, 255, 0.75);
   width: 100%;
+
+}
+
+
+@media only screen and (min-width: 36em) {
+
+.info {
+  float: left;
+  width: 50%;
+}
+
+.details {
+  float: right;
+  width: 50%;
+}
+
+.attending {
+  float: left;
+  width: 50%;
+}
+
+.about {
+  float: left;
+  width: 50%;
+}
+
+.interest {
+  float: left;
+  width: 50%;
+}
+
+.events {
+  float: right;
+  width: 50%;
+}
 
 }
