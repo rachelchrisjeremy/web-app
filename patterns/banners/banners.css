@@ -1,0 +1,91 @@
+.banner {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+
+.banner h3 {
+  font-weight: 400;
+}
+
+.banner-title,
+.banner-title-w,
+.banner-title-c {
+  display: inline-block;
+  position: absolute;
+    bottom: 0;
+}
+
+.banner-title {
+  width: 80%;
+}
+
+.banner-title-w {
+  width: 70%;
+}
+
+.banner-title-c {
+  width: 100%;
+  text-align: center;
+}
+
+.banner-title-c a {
+  color: #fff;
+}
+
+.banner-title-c a:hover {
+  color: var(--color-primary-light);
+  transition: all 0.25s;
+}
+
+.right-btn,
+.right-btn-w,
+.tr-btn {
+ display: inline-block;
+ position: absolute;
+ text-align: right;
+ right: 0;
+}
+
+.right-btn {
+  width: 20%;
+  bottom: 0;
+
+}
+
+.tr-btn {
+  width: 20%;
+  top: 0;
+}
+
+.right-btn-w {
+  width: 30%;
+  bottom: 0;
+}
+
+.right-btn img,
+.tr-btn img {
+  width:100%;
+}
+
+.right-btn-w a {
+
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  .right-btn,
+  .tr-btn {
+    width: 15%;
+  }
+
+}
+@media only screen and (min-width: 38em) {
+
+  .right-btn,
+  .tr-btn {
+    width: 10%;
+  }
+
+}
