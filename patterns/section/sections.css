@@ -15,10 +15,11 @@ h3 {
   color: #666;
   background-color: #eee;
   border-radius: 16px;
+  overflow: hidden;
 }
 
 .name-card {
-  max-width: 400px;
+  max-width: 300px;
 
 }
 
@@ -35,8 +36,16 @@ h3 {
   transition: 0.3s;
 }
 
-.event-card img{
-  max-width: 120px;
+.event-card img {
+  max-width: 80px;
+}
+
+.event-card {
+  max-width: 500px;
+}
+
+.event-card h4 {
+  font-size: 1.125rem;
 }
 
 .event-label {
@@ -61,7 +70,15 @@ h3 {
   font-size: 0.7em;
 }
 
-@media only screen and (min-width: 36em) {
+@media only screen and (min-width: 25em) {
+
+  .event-card img{
+    max-width: 100px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
 
 .info {
   float: left;
@@ -79,18 +96,30 @@ h3 {
 }
 
 .about {
+  width: 65%;
   float: left;
-  width: 50%;
 }
 
 .interest {
-  float: left;
-  width: 50%;
+  float: right;
+  width: 30%;
 }
 
 .events {
-  float: right;
-  width: 50%;
+  float: left;
+  width: 100%;
+}
+
+.event-card {
+  margin-right: .7rem;
+}
+
+.event-card h4 {
+  font-size: 1rem;
+}
+
+.event-card img{
+  max-width: 120px;
 }
 
 }
