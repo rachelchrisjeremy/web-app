@@ -4,7 +4,7 @@
   --color-secondary: #696969;
   --color-secondary-light: #F7F7F7;
 
-  --font-primary: 'Open Sans', sans-serif;
+  --font-primary: 'Nunito Sans', sans-serif;
 
 }
 
@@ -25,17 +25,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  font-weight: 200;
-}
-
-ol {
-  font-weight: 200;
-}
-
-dl {
-  font-weight: 200;
-}
 
 mark {
   background-color: var(--color-secondary);
