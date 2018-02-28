@@ -1,3 +1,8 @@
+h3 {
+  color: var(--color-primary);
+  letter-spacing: 0.03em;
+}
+
 .wrapper {
   max-width: 44em;
 }
@@ -50,9 +55,11 @@
   bottom: 0;
   background-color: rgba(255, 255, 255, 0.75);
   width: 100%;
-
 }
 
+.small {
+  font-size: 0.7em;
+}
 
 @media only screen and (min-width: 36em) {
 
