@@ -4,7 +4,7 @@
   --color-secondary: #696969;
   --color-secondary-light: #F7F7F7;
 
-  --font-primary: "Noto Sans", sans-serif;
+  --font-primary: 'Open Sans', sans-serif;
 
 }
 
@@ -15,6 +15,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-primary);
 }
+
 
 .tera {
   font-family: var(--font-primary);
