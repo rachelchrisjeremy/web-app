@@ -22,8 +22,8 @@
 
 .btn-ghost {
   background-color: transparent;
-  border: 3px solid var(--color-primary);
-  border-radius: 20px;
+  border: 1.5px solid var(--color-primary);
+  border-radius: 16px;
   color: var(--color-primary);
 }
 

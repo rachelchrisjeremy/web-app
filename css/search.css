@@ -1,0 +1,20 @@
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchterm {
+  width: 99%;
+  border: 2px solid var(--color-primary);
+  height: 40px;
+  border-radius: 16px;
+  outline: none;
+  color: var(--color-primary);
+}
+
+.iconsearch {
+  color: var(--color-primary);
+  position: absolute;
+  right: 13px;
+  top: 5px;
+}
