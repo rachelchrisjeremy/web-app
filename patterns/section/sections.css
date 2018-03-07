@@ -1,12 +1,15 @@
+h3 {
+  color: var(--color-primary);
+  letter-spacing: 0.03em;
+}
 
 .wrapper {
-  max-width: 46em;
+  max-width: 44em;
 }
 
 .icon {
   fill: black;
 }
-
 
 .card {
   color: #666;
