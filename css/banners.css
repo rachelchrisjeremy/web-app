@@ -72,6 +72,10 @@
   color: #fff
 }
 
+.going {
+  fill: var(--color-primary);
+}
+
 
 @media only screen and (min-width: 25em) {
 
