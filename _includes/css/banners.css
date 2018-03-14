@@ -20,6 +20,18 @@
   width: 80%;
 }
 
+.going svg {
+  fill: #fff;
+}
+
+.going:hover svg {
+  fill: var(--color-primary);
+}
+
+.going-focus:focus svg {
+  fill: var(--color-primary);
+}
+
 .banner-title-w {
   width: 70%;
 }
@@ -44,13 +56,12 @@
  display: inline-block;
  position: absolute;
  text-align: right;
- right: 0;
+ right: 0.65rem;
 }
 
 .right-btn {
   width: 20%;
   bottom: 0;
-
 }
 
 .tr-btn {
@@ -67,6 +78,8 @@
 .tr-btn img {
   width:100%;
 }
+
+
 
 .white {
   color: #fff

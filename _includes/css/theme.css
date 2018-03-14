@@ -28,6 +28,16 @@ a {
   text-decoration: none;
 }
 
+a:focus {
+  outline: none;
+}
+
+.see-all:focus,
+.see-all:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary);
+  font-weight: bold;
+}
 
 mark {
   background-color: var(--color-secondary);
