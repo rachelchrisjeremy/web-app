@@ -1,7 +1,6 @@
 .btn {
-  background-color: var(--color-primary);
+  background-color: #fff;
   border-color: transparent;
-  color: #fff;
   transition: all 250ms linear;
 }
 
@@ -17,7 +16,7 @@
 }
 
 .btn-light:hover {
-  background: var(--color-secondary-light);
+  background: #FF8A8A;
 }
 
 .btn-ghost {
