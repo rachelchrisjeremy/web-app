@@ -4,10 +4,39 @@
   <meta charset="utf-8">
   <title>web app</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="{{site.baseurl}}../css/site.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
+
+  <ul class="skip-links">
+    <li><a href="#nav">Jump to navagation</a></li>
+    <li><a href="#main">Jump to main content</a></li>
+  </ul>
+
+  <header id="nav" class="wrapper clearfix pad-b-0">
+    <div class=" logo pad-t-1-2 pad-b-1-2">
+        <a class="icon-link" href="{{site.baseurl}}/index"><img class="img-flex" src="{{site.baseurl}}/images/junction-logo-colour.svg" alt=""></a>
+    </div>
+
+    <ul class="list-group-inline push-0 mega right pad-t">
+      <li class="gutter-1-2">
+        <i class="icon i-32">
+          <a class="icon-link" href="{{site.baseurl}}/harper-profile"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="0.9in" height="0.8in" viewBox="0 0 61.7 60"><title>profile</title><circle cx="30.8" cy="17.3" r="12.7" fill="#696969"/><path d="M56.1,55.3H5.5V49.4c0-8.4,16.9-13.1,25.3-13.1S56.1,41,56.1,49.4Z" fill="#696969"/></svg></a>
+        </i>
+      </li>
+      <li class="gutter-1-2">
+        <i class="icon i-32">
+          <a class="icon-link" href="{{site.baseurl}}/index"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="0.9in" height="0.8in" viewBox="0 0 61.7 60"><title>event</title><path d="M43.3,32.5H30.8V44.9H43.3ZM40.8,5.1v5H20.9v-5h-5v5H13.4a4.9,4.9,0,0,0-4.9,5V49.9a5,5,0,0,0,5,5H48.3a4.9,4.9,0,0,0,4.9-5V15.1a4.9,4.9,0,0,0-4.9-5H45.8v-5Zm7.5,44.8H13.4V22.5H48.3Z" fill="#696969"/><path d="M1,.1H60.7V59.9H1Z" fill="none"/></svg></a>
+        </i>
+      </li>
+      <li class="gutter-1-2">
+        <i class="icon i-32">
+          <a class="icon-link" href="{{site.baseurl}}/search"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="0.9in" height="0.8in" viewBox="0 0 61.7 60"><title>search</title><path d="M36,34.3H34.1l-.7-.6a15.8,15.8,0,1,0-1.7,1.7l.7.7V38L44.6,50.2l3.6-3.6Zm-14.6,0a11,11,0,1,1,11-11A11,11,0,0,1,21.4,34.3Z" fill="#696969"/></svg></a>
+        </i>
+      </li>
+    </ul>
+  </header>
 
   {{content}}
 
